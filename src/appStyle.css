@@ -1,0 +1,61 @@
+.app_container {
+	width: 65%;
+	margin: auto;
+}
+
+.app_header_main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.app_header {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: fit-content;
+}
+
+h2 {
+	line-height: 0rem;
+}
+
+.app_header_welcome {
+	font-size: 12px;
+	line-height: 0%;
+	color: gray;
+}
+
+.input_container {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+
+}
+
+input {
+	width: 70%;
+	height: 1.5rem;
+	outline: none;
+	border: 1px solid rgb(227, 226, 226);
+	border-radius: 2px;
+	padding-left: 10px;
+}
+input:focus {
+	
+	background-color: white
+}
+.input_container_add{
+	height: 1.5rem;
+	width: 1.5rem;
+	border-radius: 50%;
+	border: 1px solid gray;
+	cursor: pointer;
+	font-weight: 700;
+	color: gray;
+}
+.input_container_add:hover{
+	background-color: rgba(253, 253, 253, 0.732);
+}
